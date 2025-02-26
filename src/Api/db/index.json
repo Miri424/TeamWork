@@ -1,0 +1,109 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Top 10 Movies to Watch on Netflix This Month",
+        "author": "John Doe",
+        "content": "Netflix always has something new to offer. Here are the top 10 must-watch movies available on the platform right now...",
+        "category": "Movies",
+        "tags": ["Netflix", "Movies", "Recommendations"],
+        "published_date": "2025-02-20T08:30:00Z",
+        "image": "https://via.placeholder.com/800x400?text=Top+Movies+on+Netflix"
+      },
+      {
+        "id": 2,
+        "title": "The Evolution of Netflix Original Series",
+        "author": "Jane Smith",
+        "content": "Netflix has revolutionized the entertainment industry with its original series. In this post, we’ll explore how these series have evolved over the years...",
+        "category": "Series",
+        "tags": ["Netflix Originals", "Series", "TV Shows"],
+        "published_date": "2025-02-18T10:00:00Z",
+        "image": "https://via.placeholder.com/800x400?text=Netflix+Original+Series"
+      },
+      {
+        "id": 3,
+        "title": "Why Netflix is a Game Changer for Movie Lovers",
+        "author": "Alice Brown",
+        "content": "Netflix has redefined how we consume movies. From on-demand streaming to exclusive content, here’s why Netflix has become the go-to platform for movie lovers...",
+        "category": "Movies",
+        "tags": ["Netflix", "Streaming", "Movies", "Entertainment"],
+        "published_date": "2025-02-15T14:30:00Z",
+        "image": "https://via.placeholder.com/800x400?text=Netflix+Movie+Lovers"
+      }
+    ],
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "year": 2010,
+        "genre": ["Sci-Fi", "Action"],
+        "rating": 8.8,
+        "poster": "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg",
+        "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+      },
+      {
+        "id": 2,
+        "title": "Interstellar",
+        "year": 2014,
+        "genre": ["Sci-Fi", "Drama"],
+        "rating": 8.6,
+        "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+      }
+    ],
+    "series": [
+      {
+        "id": 1,
+        "title": "Stranger Things",
+        "year": 2016,
+        "genre": ["Sci-Fi", "Horror"],
+        "seasons": 4,
+        "rating": 8.7,
+        "poster": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+        "trailer": "https://www.youtube.com/watch?v=mnd7sFt5c3A"
+      },
+      {
+        "id": 2,
+        "title": "Breaking Bad",
+        "year": 2008,
+        "genre": ["Crime", "Drama"],
+        "seasons": 5,
+        "rating": 9.5,
+        "poster": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+        "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY"
+      }
+    ],
+    "categories": [
+      { "id": 1, "name": "Sci-Fi" },
+      { "id": 2, "name": "Drama" },
+      { "id": 3, "name": "Action" },
+      { "id": 4, "name": "Horror" },
+      { "id": 5, "name": "Recommendations" },
+      { "id": 6, "name": "Movies" },
+      { "id": 7, "name": "Series" }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "email": "admin@netflix.com",
+        "role": "admin",
+        "password": "admin123"
+      },
+      {
+        "id": 2,
+        "name": "John Doe",
+        "email": "john@netflix.com",
+        "role": "user",
+        "password": "user123"
+      },
+      {
+        "id": 3,
+        "name": "Alice Brown",
+        "email": "alice@netflix.com",
+        "role": "user",
+        "password": "alice123"
+      }
+    ]
+  }
+  
