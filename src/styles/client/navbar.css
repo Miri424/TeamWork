@@ -1,0 +1,49 @@
+.navbar-search {
+    display: flex;
+    max-width: 430px;
+    width: 100%;
+}
+
+.h {
+    transition: all 300ms ease-in-out;
+    animation: slideOut 1s ease-in-out forwards alternate;
+}
+
+.active {
+    display: block;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    animation: slideIn 1s ease-in-out forwards;
+    border: 1px solid red;
+    background-color: green;
+    -moz-animation-direction: alternate
+}
+
+@keyframes slideIn {
+    0% {
+        /* opacity: 0; */
+        /* width: 0%; */
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    100% {
+        opacity: 1;
+        width: 100%;
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        width: 100%;
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    100% {
+        /* opacity: 0; */
+        /* width: 0%; */
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+}
